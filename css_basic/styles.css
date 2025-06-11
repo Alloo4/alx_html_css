@@ -1,0 +1,38 @@
+/* Layout for body and main */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Article: main content */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+}
+
+/* Aside: sidebar */
+aside {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Header and Footer */
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
